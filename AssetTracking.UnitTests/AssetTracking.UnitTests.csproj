@@ -14,8 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\" />
     <Folder Include="Application\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AssetTracking.Domain\AssetTracking.Domain.csproj" />
   </ItemGroup>
 
 </Project>
