@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetTracking.Domain", "AssetTracking.Domain\AssetTracking.Domain.csproj", "{3B78DB3C-EA42-4D12-B506-FD23AFEC6347}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetTracking.API", "AssetTracking.API\AssetTracking.API.csproj", "{E2301DCF-3153-4B75-BDF7-12C4C879EA6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetTracking.Application", "AssetTracking.Application\AssetTracking.Application.csproj", "{BBDB5CA2-3D3C-49A6-A0DF-9C42771D98AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssertTracking.Infrastructure", "AssertTracking.Infrastructure\AssertTracking.Infrastructure.csproj", "{8D48064F-84ED-4ADF-A582-8EB78C49EA6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{64D628AB-806C-4579-B240-E12CE4677AE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetTracking.UnitTests", "AssetTracking.UnitTests\AssetTracking.UnitTests.csproj", "{54CA16DD-E79B-4230-B23B-4FC73C60714D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B78DB3C-EA42-4D12-B506-FD23AFEC6347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B78DB3C-EA42-4D12-B506-FD23AFEC6347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B78DB3C-EA42-4D12-B506-FD23AFEC6347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B78DB3C-EA42-4D12-B506-FD23AFEC6347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2301DCF-3153-4B75-BDF7-12C4C879EA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2301DCF-3153-4B75-BDF7-12C4C879EA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2301DCF-3153-4B75-BDF7-12C4C879EA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2301DCF-3153-4B75-BDF7-12C4C879EA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBDB5CA2-3D3C-49A6-A0DF-9C42771D98AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBDB5CA2-3D3C-49A6-A0DF-9C42771D98AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBDB5CA2-3D3C-49A6-A0DF-9C42771D98AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBDB5CA2-3D3C-49A6-A0DF-9C42771D98AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D48064F-84ED-4ADF-A582-8EB78C49EA6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D48064F-84ED-4ADF-A582-8EB78C49EA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D48064F-84ED-4ADF-A582-8EB78C49EA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D48064F-84ED-4ADF-A582-8EB78C49EA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54CA16DD-E79B-4230-B23B-4FC73C60714D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54CA16DD-E79B-4230-B23B-4FC73C60714D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54CA16DD-E79B-4230-B23B-4FC73C60714D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54CA16DD-E79B-4230-B23B-4FC73C60714D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54CA16DD-E79B-4230-B23B-4FC73C60714D} = {64D628AB-806C-4579-B240-E12CE4677AE9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AA5B29B-F70D-417F-A28E-E2FACD07948D}
+	EndGlobalSection
+EndGlobal
