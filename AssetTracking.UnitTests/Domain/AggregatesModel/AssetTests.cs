@@ -14,7 +14,7 @@ namespace AssetTracking.UnitTests.Domain.AggregatesModel
 		[Theory]
 		[InlineData(0)]
 		[InlineData(-1)]
-		public void CreateAsset_InvalidAssetGroupId_ExceptionShouldBeThrown(int assetGroupid)
+		public void CreateAsset_AssetGroupIdIsInvalid_ExceptionShouldBeThrown(int assetGroupid)
 		{
 			// Act and Assert
 			Assert.Throws<AssetTrackingDomainException>(() => Asset.CreateAsset(ValidId, assetGroupid, ValidSeriaNo, ValidTitle));
