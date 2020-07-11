@@ -18,7 +18,7 @@ namespace AssetTracking.Domain.AggregatesModel.AssetAggregate
 			Title = title;
 		}
 
-		public AssetGroup CreateAssetGroup(int id, string code, string title)
+		public static AssetGroup CreateAssetGroup(int id, string code, string title)
 		{
 			return new AssetGroup(id, code, title);
 		}
